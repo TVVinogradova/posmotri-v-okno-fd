@@ -1,1 +1,0 @@
-https://github.com/TVVinogradova/posmotri-v-okno-fd
