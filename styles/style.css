@@ -10,7 +10,6 @@ html {
 
 .page {
   width: 1200px;
-  height: 800px;
   block-size: 100%;
   margin: auto;
   color: #fff;
@@ -69,6 +68,7 @@ ol {
   margin: 133px 30px;
   justify-content: end;
   align-items: space-between;
+  gap: 30px;
 }
 
 .result {
@@ -88,6 +88,7 @@ ol {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
 }
 
 .search-form {
@@ -256,9 +257,8 @@ input[type='text'] {
 .title {
   width: 259px;
   height: 210px;
-  margin-left: 15px;
-  margin-bottom: 10px;
-  font-family: Oswald;
+  margin-bottom: 26px;
+  font-family: 'Oswald', sans-serif;
   font-size: 75px;
   font-weight: 700;
   line-height: 94%;
@@ -273,8 +273,7 @@ input[type='text'] {
   width: 100%;
   height: 298px;
   object-fit: cover;
-  overflow-y: scroll;
-  margin-left: 14px;
+  overflow-y: auto;
   position: relative;
   inset: 0;
   margin-top: 26px;
@@ -284,6 +283,7 @@ input[type='text'] {
   display: flex;
   flex-direction: column;
   row-gap: 30px;
+  width: 100%;
 }
 
 .content__list-item {
@@ -307,7 +307,7 @@ input[type='text'] {
 }
 
 .content__video-card-title {
-  font-family: Oswald;
+  font-family: 'Oswald', sans-serif;
   font-size: 30px;
   font-weight: 700;
   text-transform: uppercase;
